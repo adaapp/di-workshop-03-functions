@@ -1,0 +1,19 @@
+{
+  "name": "di-workshop-03-functions",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaapp/di-workshop-03-functions.git"
+  },
+  "author": "Alex Dytrych <alex@ada.ac.uk>",
+  "bugs": {
+    "url": "https://github.com/adaapp/di-workshop-03-functions/issues"
+  },
+  "homepage": "https://github.com/adaapp/di-workshop-03-functions#readme",
+  "dependencies": {
+    "serve": "^10.0.0"
+  }
+}
