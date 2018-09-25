@@ -301,3 +301,4 @@ if (ballShouldBounce(ballPosition)) {
 - Make the ball move vertically as well as horizontally
 - Refactor your code by adding functions until `draw` only uses functions you've
   written, not ones from processing
+- Turn your sketch into a small game
