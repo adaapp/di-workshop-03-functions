@@ -36,7 +36,7 @@ sketch, refer back to the previous workshop)
 
 ```js
 function setup() {
-  size(400, 400)
+  createCanvas(400, 400)
   background(255)
 }
 
@@ -165,9 +165,26 @@ signature is the **name** of the function, its **inputs**, and its **outputs**.
 
 # Part 3
 
-Look at the programs below. Read each one carefully, and write down what you
-expect the output to be. Then, run the code and see what the actual output is.
-If it’s different, find out why and write it down.
+Look at the programs below. Read each one carefully, and **trace through it on
+paper** - write each line that gets executed, and the value of each variable
+every time it changes.
+
+> _Note:_ you might find this process a bit basic or frustrating. That's
+> understandable - we think of code as for computers, and you're not a computer!
+> You're (probably) a person with proper squishy organs and stuff.
+>
+> Even so, stepping through a piece of code like this on paper makes you be
+> really explicit and deliberate, and is a great way of checking your
+> understanding of something.
+>
+> This is a great technique for when you get stuck later on too. Most of how you
+> get 'unstuck' when coding is just by slowing down and really rigorously
+> checking your understanding of something.
+
+Once you've traced through the code on paper, write your expected output in this
+document and run the code. Record the actual output. If it's different, can you
+figure out why? Try running through your trace again or getting another pair to
+check it.
 
 ## Program 1
 
