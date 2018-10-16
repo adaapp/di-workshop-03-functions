@@ -25,6 +25,37 @@ For each of the **bold** questions below:
 
 # Part 1
 
+New git commands! As you work, you should be **add**ing and **commit**ing your
+code. Check out the
+[git cheat sheat on GitBook](https://adaapp.gitbook.io/digital-innovation/guides/git-cheat-sheet)
+for help! Ideally, you should create a new commit every 15 minutes or so - try
+adding a new one every time you answer a question.
+
+Once you've made several commits, you need to send them back to github. When we
+`clone`d the project in the first place, git remembered where we got it from.
+You can see this by running this command:
+
+```sh
+git remote --verbose
+```
+
+The `origin` should be your GitHub repository. We can send our new changes back
+to GitHub by **push**ing them:
+
+```sh
+git push
+```
+
+If the command was successful, you shoulkd be able to go to your own GitHub
+repository and see the most up to date changes!
+
+**Go back to your previous two workshops and make sure all your changes have
+been committed and pushed.**
+
+**As you complete this workshop, commit and push your changes as you go.**
+
+# Part 2
+
 Functions let us break a program up into **small, reusable chunks**. We’ve
 written some already - `draw` and `setup` are special functions that P5.js
 already knows about. We’ve used lots of functions as well - any word followed by
@@ -103,7 +134,7 @@ function?**
 2. ...
 3. ...
 
-# Part 2
+# Part 3
 
 As well as executing a set of instructions, functions can give information back
 to the code that uses them. For example, let’s say you’re writing an application
@@ -163,7 +194,7 @@ function calculateTaxAmount(income, taxRate) {
 All together, that line is describes most of the function’s **signature**. The
 signature is the **name** of the function, its **inputs**, and its **outputs**.
 
-# Part 3
+# Part 4
 
 Look at the programs below. Read each one carefully, and **trace through it on
 paper** - write each line that gets executed, and the value of each variable
@@ -271,7 +302,7 @@ function setup() {
 
 **What does return mean in JavaScript?**
 
-# Part 4
+# Part 5
 
 Create a new sketch using this code:
 
