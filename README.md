@@ -105,7 +105,7 @@ should add a comment like this to every function you write.
 Let’s create some more functions - one for drawing the roof of the house, and
 another for drawing the entire house.
 
-C**reate functions using the code below as a starting point.** Your house
+**Create functions using the code below as a starting point.** Your house
 function should only use the square and roof functions that we defined.
 
 ```js
